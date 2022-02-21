@@ -8,3 +8,4 @@ Kelas
 * Metnum 02 - Paralel
 * Metnum Kapal
 * Metnum KKI
+* Dosen nya Pak Dai

@@ -1,5 +1,5 @@
 #Retrieved from CodeSansar at Mar 7th, 2022
-#Example for Newton Raphson Method for Numerical Method
+#Example for Newton Raphson Method for Numerical Method Class DTM FTUI
 
 import numpy as py
 

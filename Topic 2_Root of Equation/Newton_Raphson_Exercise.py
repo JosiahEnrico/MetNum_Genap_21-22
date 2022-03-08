@@ -1,5 +1,5 @@
 #Unfinish code exercise for Numerical Method Class
-#Written by Numerical Method Assistance
+#Written by Numerical Method Assistants
 
 import numpy as py
 

@@ -1,5 +1,5 @@
 #Unfinish code exercise for Numerical Method Class
-#Written by Josiah Enrico S / M19
+#Written by Numerical Method Assistance
 
 import numpy as py
 

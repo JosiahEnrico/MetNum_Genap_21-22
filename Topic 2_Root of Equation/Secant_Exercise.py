@@ -1,5 +1,5 @@
 #Exercise for Numerical Method DTM FTUI
-#Written by Josiah Enrico S / M19
+#Written by Numerical Method Assistants
 
 
 # Defining Function

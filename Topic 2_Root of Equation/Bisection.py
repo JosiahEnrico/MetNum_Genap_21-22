@@ -1,4 +1,7 @@
-# Defining Function
+#Retrieved from CodeSansar at Mar 11th, 2022
+#Code example for NUmerical Method Class in DTM FTUI
+
+
 def f(x):
     return x**3-5*x-9
 

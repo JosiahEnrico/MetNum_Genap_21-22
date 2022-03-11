@@ -1,4 +1,6 @@
-# Defining Function
+#Exercise for Numerical Method DTM FTUI
+#Written by Numerical Method Assistants
+
 from tkinter.tix import INTEGER
 
 
@@ -9,17 +11,16 @@ def f(x):
 def bisection(xa,xb,e,N):
     err = 1
     for step in range(1,N):
-        xt = (xa + xb)/2
+        # TODO1 = Complete the blank code below with Secant Algorithm using for loop
+        ...
+        ...
+        ...
+        ...
+        ...
         print('Iteration-%d, x2 = %0.6f and err = %0.6f' % (step, xt, err))
-        err = abs(1 - xa/xt)
-        if err < e:
-            break
-        if f(xa)*f(xt) < 0:
-            xb = xt
-        else:
-            xa = xt
 
-    if err > e:
+    # TODO2 = Complete the blank variables below so it will return to 'Not Convergent' if the desired tolerable error is not obtained
+    if ... > ...:
         print('\nNot Convergent')
     else:
         print('\nRequired root is: %0.8f' % xt)

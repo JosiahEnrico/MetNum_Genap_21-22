@@ -1,0 +1,25 @@
+model Matrice_Operation_HandsOn
+
+parameter Real A[2,5] = [ 1, 9, 0, 6, 3;
+                          5, 6, 2, 8, 6];
+                      
+parameter Real B[5,2] = [ 5, 1;
+                          6, 9;
+                          2, 0;
+                          8, 6;
+                          6, 3];
+
+parameter Real C[2,2] = [ 1, 2;
+                          1, 2];
+                          
+Real D[2,2];
+
+equation
+
+D = (A*B).*C;
+/* 
+[ 125, 254;
+  165, 250];
+*/
+
+end Matrice_Operation_HandsOn;

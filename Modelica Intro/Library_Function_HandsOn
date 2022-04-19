@@ -1,0 +1,20 @@
+model Library_Function_HandsOn
+
+Real A[3,3] = [1,2,3;
+               3,4,5;
+               2,1,4];
+Real b[3] = {10,22,12};
+Real z[3,3];
+Real sort[3];
+  
+algorithm
+
+z := Modelica.Math.Matrices.inv(A);
+/*
+[ -1.375, 0.625, 0.25 ; 
+   0,25 , 0,25 ,-0,5  ;
+   0.625,-0.375, 0.25 ];
+*/
+sort := Modelica.Math.Vectors.sort(b); // sort = [10,12,22]
+
+end Library_Function_HandsOn;
